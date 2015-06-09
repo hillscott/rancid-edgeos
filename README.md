@@ -24,6 +24,7 @@ To integrate into your RANCID install:
 "inet_pton" is not exported by the Socket module
 That means that you'll need to update Socket.
 * Also, the timing on password authentication is spotty at best, I recommend working around this by using key-based SSH auth on your EdgeOS routers. You then can put entries in your .cloginrc like the below:
+
 add user HOST rancid 
 add password HOST FAKEPASSNOTUSED
 add method HOST ssh
