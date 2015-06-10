@@ -1,5 +1,7 @@
 RANCID Scripts for EdgeOS by Ubiquiti
 ======
+Created by Ian Reynolds
+MIS Department Inc.
 
 Ubiquiti scripts for Rancid.  Forked from
 https://bitbucket.org/aquerubin/rancid-vyatta
@@ -30,3 +32,4 @@ add user HOST rancid
 add password HOST FAKEPASSNOTUSED
 add method HOST ssh
 ```
+
